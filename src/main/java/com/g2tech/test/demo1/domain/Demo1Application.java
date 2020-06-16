@@ -1,4 +1,4 @@
-package com.g2tech.test.demo1;
+package com.g2tech.test.demo1.domain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
