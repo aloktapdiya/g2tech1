@@ -1,4 +1,4 @@
-package com.g2tech.test.demo1;
+package com.g2tech.test.demo1.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
