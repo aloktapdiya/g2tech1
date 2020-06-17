@@ -95,9 +95,9 @@ public class Person implements Serializable, Comparable<Person> {
     }
 
     @Override
-    public int compareTo(Person c) {
+    public int compareTo(Person p) {
 
-        return new Long(this.id).compareTo(c.getId());
+        return new Long(this.id).compareTo(p.getId());
     }
 
 }
