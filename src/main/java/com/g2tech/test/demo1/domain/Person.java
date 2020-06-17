@@ -74,24 +74,24 @@ public class Person implements Serializable, Comparable<Person> {
         this.lastName = lastName;
     }
 
-    public Person(String firstName, String areacode, String pno) {
+    public Person(String lastName, String areacode, String pno) {
         super();
-        this.firstName = firstName;
+        this.firstName = lastName;
         this.areacode = areacode;
         this.pno = pno;
     }
 
-    public Person(Integer Id, String firstName, String areacode, String pno) {
+    public Person(Integer Id, String lastName, String areacode, String pno) {
         super();
         this.id = id;
-        this.firstName = firstName;
+        this.lastName = lastName;
         this.areacode = areacode;
         this.pno = pno;
     }
 
     @Override
     public String toString() {
-        return "Person [id=" + id + ", firstName=" + firstName + ", areacode=" + areacode + ", pno=" + pno + "]";
+        return "Person [id=" + id + ", lastName=" + lastName + ", areacode=" + areacode + ", pno=" + pno + "]";
     }
 
     @Override
